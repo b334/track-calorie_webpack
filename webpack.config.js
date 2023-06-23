@@ -43,6 +43,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
+      favicon: "./src/assets/favicon.ico",
       title: "Webpack App",
       filename: "index.html",
       template: "./src/index.html",
